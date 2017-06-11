@@ -39,7 +39,7 @@ RSpec.describe Stack do
       stack.push("element one")
       stack.push("element two")
       stack.push("element three")
-      
+
       expect(stack.size).to eq(3)
     end
   end
@@ -50,7 +50,7 @@ RSpec.describe Stack do
         stack = Stack.new
 
         expect(stack.empty?).to eq(true)
-      end 
+      end
     end
 
     context "stack is not empty" do

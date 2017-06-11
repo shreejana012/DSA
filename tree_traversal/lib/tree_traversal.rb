@@ -10,5 +10,10 @@ module Tree
 
   class Traverser
     # your code here
+    def bfs(node, args)
+      queue = []
+      queue.push(node)
+
+    end
   end
 end
